@@ -12,7 +12,7 @@ function ItemCard({ item, onDelete }) {
       <p><strong>Category:</strong> {item.category}</p>
       <p><strong>Price:</strong> ${item.price}</p>
       <p>{item.description}</p>
-      <p><strong>Discount Precentage: </strong> ${item.discountPrecentage}</p>
+      <p><strong>Discount Precentage: </strong> {item.discountPrecentage}%</p>
       <p><strong>Availability Status: </strong> {item.AvailabilityStatus}</p>
 
       <div className="card-actions">
